@@ -15,7 +15,7 @@ export default function App() {
       <button className="btn1" onClick={handlePopup}>
         Get the eBook
       </button>
-      {showModalPopup && <Modal close={handlePopup} />}
+      {showModalPopup && <Modal onClose={handlePopup} />}
     </div>
   );
 }
