@@ -9,7 +9,7 @@ export default function App() {
   function handlePopup() {
     setShowModalPopup(!showModalPopup);
   }
-  return (~
+  return (
     <div className="container">
       <h1>Popup Modal</h1>
       <button className="btn1" onClick={handlePopup}>
